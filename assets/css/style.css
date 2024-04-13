@@ -1,0 +1,226 @@
+
+
+
+
+
+
+.topheader { 
+    background-color:#6244a3;
+}
+.topheader p {
+    font-size: 11px; padding-left:10px; padding-top:10px;}
+.topheader .fa-xmark {padding-top: 10px; padding-right: 5px;}  
+#subsbuttonu {
+    background-color:#cf4d74 !important;
+}  
+
+#shopnow {
+  background-color: #cf4d74;
+}
+.introduction {display: flex; flex-direction: column;
+  background-color:#edebf7;
+}
+.intro-leftside {
+  color: #3C2769;
+  padding-left: 30px;
+  
+}
+.intro-leftside small {
+  margin:60px 0 15px;
+}
+.intro-leftside img {width: 70px;}
+
+.introduction .intro-rightside {
+  width: 300px;
+}
+.introduction .intro-rightside img {
+  width:100%;
+  margin: 0 10px;
+}
+
+.bestselbtn a {
+  background-color: #edebf7;
+  color: #3C2769;
+  ;
+}
+
+
+#slider {
+  background-color: #edebf7;
+}
+.swiper-slide a {
+  background-color: #FFFFFF;
+  color: #3C2769;
+  height: 40px;
+  font-size: 15px;
+  
+}
+#abtus{
+  background-color: #edebf7;
+  color: #3C2769;
+}
+section .aboutus a:nth-child(2){
+  border-color:#CDD5DF ;
+}
+.aboutus p {
+  padding-left:  10px;
+  padding-right: 10px;
+}
+section .kartlar .birkart {
+  background-color: #f3f5f7;
+  width: 350px;
+  height: 465px;
+}
+img {
+  width: 100%;
+}
+section .prdetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  background-color: #FFFFFF;
+  width: 330px;
+  height: 50px;
+  margin-top: 33px;
+  border-color: #CDD5DF;
+}
+
+.hspan span {
+  font-weight: 200;
+}
+
+.ikikart .bkart{
+  background-color: #f3f5f7;
+  width: 570px;
+  height: 632px;
+}
+.ikikart img {
+  width: 100%;
+}
+
+
+#shopbtn {
+  background-color: #FFFFFF;
+  color: #000;
+  font-weight: 300;
+  border-color: #CDD5DF;
+  margin-bottom: 50px;
+}
+#howitwork{
+  background-color: #edebf7;
+  color: #3C2769;
+}
+
+.karti img {
+  width: 100px;
+}
+.karti .wekil {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.oily { display: flex;
+  flex-direction: column;
+
+}
+#smooth {
+  background-color: #edebf7;
+  color: #3C2769;
+  
+}
+section .dryskin {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width:375px) {
+    .topheader p {padding-left: 30px;}
+}
+
+.introduction .intro-rightside {width: 355px;}
+.introduction .intro-rightside img {
+  width: 100%;
+  margin:0 10px;
+  
+}
+
+
+
+@media (min-width:768px) {
+  .introduction{
+    display: flex;
+    flex-direction: row;
+  }
+  .introduction .intro-rightside {
+    width: 900px;
+  }
+  .introduction .intro-rightside img {
+    width: 100%;
+  
+  }
+  .intro-leftside {
+    padding-left: 30px;
+  }
+  small {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+    .topheader p {font-size: 18px; padding-left: 180px; padding-top: 20px; font-weight: 100;}
+    .topheader .fa-xmark {font-size: 25px; padding-top: 20px; padding-right: 20px;}
+    #navBir{padding-left:150px !important;}
+
+    .intro-leftside img {width: 100px;}
+    .aboutus p {
+      padding-left:  100px;
+      padding-right: 100px;
+    }
+
+    .oily { display: flex;
+      flex-direction: row !important;
+    }
+
+   
+} 
+
+
+
+
+
+@media(min-width:1024px){
+  
+    .topheader p {
+        padding-left: 400px;
+    }
+#navBir {padding-left: 280px !important;}
+
+ .introduction .intro-rightside{
+  width: 1200px;
+}
+.introduction .intro-rightside img {
+  width: 100%;
+}
+.intro-leftside {padding:20px 60px;} 
+.intro-leftside small { 
+  margin-top: 150px; margin-bottom: 40px;
+
+}
+.intro-leftside p {font-size: larger;}
+
+.aboutus p {
+  padding-left:  330px;
+  padding-right: 330px;
+}
+
+
+.dry-right {
+  width: 700px;
+}
+.dry-right img{
+  width: 100%;
+}
+
+
+
+}
